@@ -1,0 +1,488 @@
+*{
+    text-transform: capitalize;
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background: linear-gradient(to bottom, rgb(2, 111, 115) , #003232);
+}
+a{
+   color: #00968c !important;
+   text-decoration: none !important;
+}
+
+.label1{
+    font-size: 14px;
+    text-align: left;
+}
+video{
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+dl{ 
+    text-shadow: 0px 0px 10px #000000;
+    color: rgb(255, 255, 255);
+}
+dt{
+    font-size: x-large;
+    text-align: left;
+    color: #bebebe;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+table{
+    border: 3px solid black;
+}
+tr td{
+    border: 3px solid black;
+    text-align: center ;
+    margin: 5px;
+    padding: 5px;
+}
+.bg3{
+    color: rgb(28, 173, 28);
+    background-color: rgb(28, 173, 28);
+}
+.bg1{
+    color: rgb(28, 173, 28);
+    background-color: rgb(28, 173, 28);
+}
+.bg2{
+    color: rgb(135, 0, 0);
+    background-color: rgb(135, 0, 0);
+}
+.bg{
+    color: rgb(135, 0, 0);
+    background-color: rgb(135, 0, 0);
+    
+}
+label{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+}
+h1{
+    text-shadow: 0px 0px 15px #ffffff;
+    text-align: center !important;
+    color: #000000 !important;
+}
+.media{
+    display: flex;
+    padding: 300px 100px 0px 100px;
+    position: absolute;
+}
+.media :hover{
+    border-radius: 20px;
+    border-color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+button{
+    color:  #595959  !important;
+}
+.contsa{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+} 
+.conta{
+    border-radius: 20px;
+    width: 400px;
+    margin: 20px ;
+    background-color: #727272;
+    padding: 20px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+.conts{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} 
+.cont{
+    width: 600px;
+    margin: 20px ;
+    background-color: #55686a;
+    padding: 20px;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+#cont1{
+    width: 600px;
+    margin: 20px ;
+    background-color: #55686a;
+    padding: 20px;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+#cont2{
+    width: 600px;
+    margin: 20px ;
+    background-color: #55686a;
+    padding: 20px;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+#cont3{
+    border-radius: 20px;
+    width: 1000px;
+    margin: 20px ;
+    background-color: #55686a;
+    padding: 20px;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+#cont4{
+    width: 600px;
+    margin: 20px ;
+    background-color: #55686a;
+    padding: 20px;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+#cont6{
+    border-radius: 20px;
+    width: 1000px;
+    margin: 20px ;
+    background-color: #55686a;
+    padding: 20px;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+#cont5{
+    border-radius: 20px;
+    width: 1000px;
+    margin: 20px ;
+    background-color: #55686a;
+    padding: 20px;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+
+             /* Responsev */
+@media screen and (max-width : 379px) {
+ 
+    .media{
+        display: block;
+    }
+    *{
+    font-size: smaller !important;
+   }
+    #cont1{
+    display: none;
+   }
+   #cont2{
+    display: none;
+   }
+   #cont5{
+    padding: 6px;
+    border-radius: 5px;
+   }
+
+   .conta{
+         width: 110px;
+         padding: 6px;
+         border-radius: 5px;
+   }
+   #cont3{
+         padding: 6px;
+         border-radius: 5px;
+   }
+   #cont6{
+         padding: 6px;
+         border-radius: 5px;
+   }
+   label{
+    font-size: small;
+   }
+   h1{
+    display: none;
+   }
+   .label1{
+    display: none;
+   }
+   .table1{
+    display: none;
+   }
+}
+@media screen and (min-width : 379px) and (max-width : 700px) {
+   #cont1{
+    display: none;
+   }
+   #cont2{
+    display: none;
+   }
+   .conta{
+         width: 150px;
+         padding: 10px;
+         border-radius: 5px;
+   }
+   #cont3{
+         padding: 15px;
+         border-radius: 10px;
+   }
+   #cont4{
+         padding: 15px;
+         border-radius: 10px;
+   }
+   label{
+    font-size: medium;
+   }
+   h1{
+    display: none;
+   }
+   .label1{
+    display: none;
+   }
+   .table1{
+    display: none;
+   }
+}
+
+@media screen and (min-width : 700px) and (max-width : 800px) {
+    *{
+        font-size: xx-small;
+    }
+     dt{
+        font-size: small;
+     }
+     .conta{
+        border-radius: 10px !important;
+        
+     }
+    .cont{
+     width: 300px;
+     margin: 20px;
+     padding: 20px;
+    }
+    #cont1{
+        width: 300px;
+    }
+    #cont2{
+      width: 300px;
+    }
+    .conta{
+          width: 300px;
+          padding: 20px;
+          border-radius: 50px;
+    }
+    #cont3{
+          padding: 20px;
+          border-radius: 20px;
+    }
+    #cont4{
+          padding: 20px;
+          border-radius: 20px;
+    }
+    #cont5{
+          padding: 20px;
+          border-radius: 20px;
+    }
+    #cont6{
+          padding: 20px;
+          border-radius: 20px;
+    }
+    label{
+        font-size: medium;
+       }
+       h1{
+        display: none;
+       }
+       .label1{
+        display: none;
+       }
+    
+}
+@media screen  and (min-width : 800px) and (max-width : 1028px)
+{
+    *{
+        font-size: x-small;
+    }
+     dt{
+        font-size: large;
+     }
+     .conta{
+        border-radius: 10px !important;
+        
+     }
+    .cont{
+     width: 350px;
+     margin: 20px;
+     padding: 20px;
+    }
+    #cont1{
+        width: 350px;
+    }
+    #cont2{
+      width: 350px;
+    }
+    .conta{
+          width: 350px;
+          padding: 20px;
+          border-radius: 50px;
+    }
+    #cont3{
+          padding: 20px;
+          border-radius: 20px;
+    }
+    #cont4{
+          padding: 20px;
+          border-radius: 20px;
+    }
+    #cont5{
+          padding: 20px;
+          border-radius: 20px;
+    }
+    #cont6{
+          padding: 20px;
+          border-radius: 20px;
+    }
+    label{
+        font-size: medium;
+       }
+       h1{
+        display: none;
+       }
+       .label1{
+        display: none;
+       }
+
+}
+@media screen  and (min-width : 1027px) and (max-width : 1280px)
+{
+    *{
+        font-size: small;
+    }
+     dt{
+        font-size: large;
+     }
+     .conta{
+        border-radius: 10px !important;
+     }
+    .cont{
+     width: 474px;
+     margin: 20px;
+     padding: 20px;
+    }
+    #cont1{
+        width: 474px;
+    }
+    #cont2{
+      width: 474px;
+    }
+    .conta{
+          width: 474px;
+          padding: 20px;
+          border-radius: 50px;
+    }
+    #cont3{
+          padding: 20px;
+          border-radius: 20px;
+    }
+    #cont4{
+          padding: 20px;
+          border-radius: 20px;
+    }
+    #cont5{
+          padding: 20px;
+          border-radius: 20px;
+    }
+    #cont6{
+          padding: 20px;
+          border-radius: 20px;
+    }
+    label{
+        font-size: medium;
+       }
+        h1{
+        display: none;
+       } 
+       .label1{
+        display: none;
+       }
+}
+@media screen and (min-width : 1556px) and (max-width : 1687px) {     
+    #cont1{
+           width: 730px;
+       }
+       #cont2{
+         width: 730px;
+       }
+       .conta{
+             width: 400px;
+             padding: 20px;
+             border-radius: 50px;
+       }
+       #cont3{
+             padding: 20px;
+             border-radius: 20px;
+       }
+       #cont4{
+             padding: 20px;
+             border-radius: 20px;
+       }
+       #cont5{
+             padding: 20px;
+             border-radius: 20px;
+       }
+       #cont6{
+             padding: 20px;
+             border-radius: 20px;
+       }
+       .container{
+        width: 400px;
+        margin: 20px;
+        padding: 20px;
+       }
+}
+@media screen and (min-width : 1687px) and (max-width : 1899px) {     
+    .some{
+        font-size: xx-large !important;
+    }
+    .label1{
+        font-size: large;
+    }
+     dt{
+        font-size: xx-large;
+     }
+     dd{
+        font-size: large  !important;
+     }
+     .cont{
+        width: 750px;
+     }
+    #cont1{
+           width: 750px;
+       }
+       #cont2{
+         width: 700px;
+       }
+       .conta{
+             width: 400px;
+             padding: 20px;
+             border-radius: 50px;
+       }
+       #cont3{
+       
+             padding: 20px;
+             border-radius: 20px;
+       }
+       #cont4{
+             padding: 20px;
+             border-radius: 20px;
+       }
+       #cont5{
+             padding: 20px;
+             border-radius: 20px;
+       }
+       #cont6{
+             padding: 20px;
+             border-radius: 20px;
+       }
+       .container{
+        width: 400px;
+        margin: 20px;
+        padding: 20px;
+       }
+}
+
+
+    

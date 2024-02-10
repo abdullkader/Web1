@@ -1,0 +1,634 @@
+*{
+    text-transform: capitalize;
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background: linear-gradient(to bottom, #727272 , #727272);
+}
+a{
+    color: #989898 !important;
+    text-decoration: none !important;
+}
+
+.label1{
+    font-size: 14px;
+    text-align: left;
+}
+video{
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+dl{ 
+    text-transform: capitalize;
+    /* text-shadow: 0px 0px 10px #000000; */
+    color: rgb(255, 255, 255);
+}
+dt{
+    font-size: x-large;
+    text-align: left;
+    color: #bebebe;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+table{
+    border: 3px solid black;
+}
+tr td{
+    border: 3px solid black;
+    text-align: center ;
+    margin: 5px;
+    padding: 5px;
+}
+.bg3{
+    color: rgb(28, 173, 28);
+    background-color: rgb(28, 173, 28);
+}
+.bg1{
+    color: rgb(135, 0, 0);
+    background-color: rgb(135, 0, 0);
+}
+.bg2{
+    color: rgb(135, 0, 0);
+    background-color: rgb(135, 0, 0);
+}
+.bg{
+    color: rgb(216, 135, 13);
+    background-color: rgb(216, 135, 13);
+    
+}
+label{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+}
+h1{
+    text-shadow: 0px 0px 15px #000000;
+    text-align: center !important;
+    color: #ffffff !important;
+}
+.media{
+    display: flex;
+    padding: 300px 100px 0px 100px;
+    position: absolute;
+}
+.media :hover{
+    border-radius: 20px;
+    border-color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+button{
+    color:  #595959  !important;
+}
+.contsa{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+} 
+
+.conta{
+    border-radius: 20px;
+    width: 400px;
+    margin: 20px ;
+    background-color: #727272;
+    padding: 20px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+.conts{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} 
+.cont{
+    width: 600px;
+    margin: 20px ;
+    background-color: #737373;
+    padding: 20px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+#cont1{
+    width: 600px;
+    margin: 20px ;
+    background-color: #737373;
+    padding: 20px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+#cont2{
+    width: 600px;
+    margin: 20px ;
+    background-color: #737373;
+    padding: 20px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+#cont3{
+    width: 600px;
+    margin: 20px ;
+    background-color: #737373;
+    padding: 20px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+#cont5{
+    width: 600px;
+    margin: 20px ;
+    background-color: #737373;
+    padding: 20px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+#cont6{
+    width: 900px;
+    margin: 20px ;
+    background-color: #737373;
+    padding: 20px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+#cont7{
+    border-radius: 20px;
+    width: 900px;
+    margin: 20px ;
+    background-color: #727272;
+    padding: 20px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+#contt{
+    border-radius: 20px;
+    width: 1000px;
+    margin: 20px ;
+    background-color: #727272;
+    padding: 20px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+             /* Responsev */
+@media screen and (max-width : 380px) {
+ 
+    .media{
+        display: block;
+    }
+    *{
+    font-size: smaller !important;
+   }
+    #cont1{
+    display: none;
+   }
+   #cont2{
+    display: none;
+   }
+   #cont5{
+    
+    padding: 6px;
+    border-radius: 5px;
+   }
+
+   .conta{
+         width: 110px;
+         padding: 6px;
+         border-radius: 5px;
+   }
+   #cont3{
+   
+         padding: 6px;
+         border-radius: 5px;
+   }
+   #cont6{
+         padding: 6px;
+         border-radius: 5px;
+   }
+   label{
+    font-size: small;
+   }
+   h1{
+    display: none;
+   }
+   .label1{
+    display: none;
+   }
+   .table1{
+    display: none;
+   }
+}
+@media screen and (min-width : 380px) and (max-width : 700px) {
+       .some{
+        font-size: x-large !important;
+       }
+       dd{
+        font-size: small !important;
+       }
+    #cont1{
+    display: none;
+   }
+   #cont2{
+    display: none;
+   }
+   .conta{
+         width: 150px;
+         padding: 10px;
+         border-radius: 5px;
+   }
+   #cont3{
+         padding: 15px;
+         border-radius: 10px;
+   }
+   #cont4{
+         padding: 15px;
+         border-radius: 10px;
+   }
+   label{
+    font-size: medium;
+   }
+   h1{
+    display: none;
+   }
+   .label1{
+    display: none;
+   }
+   .table1{
+    display: none;
+   }
+}
+@media screen and (min-width : 700px) and (max-width : 800px) {
+       .some{
+        font-size: x-large !important;
+       }
+       dd{
+        font-size: x-small !important;
+       }
+       dt{
+        font-size: medium;
+       }
+    /* #cont1{
+    display: none;
+   }
+   #cont2{
+    display: none;
+   } */
+   .cont{
+    width: 300px;
+    padding: 10px;
+   }
+   .conta{
+         width: 200px;
+         padding: 10px;
+         border-radius: 5px;
+   }
+   #cont1{
+       width: 300px;
+       padding: 10px;
+   }
+   #cont2{
+     width: 300px;
+     padding: 10px;
+   }
+   #cont3{
+    width: 320px;
+         padding: 15px;
+         border-radius: 10px;
+   }
+   #cont5{
+    width: 320px;
+         padding: 15px;
+         border-radius: 10px;
+   }
+   #cont6{
+    
+         padding: 15px;
+         border-radius: 10px;
+   }
+   label{
+    font-size: medium;
+   }
+   h1{
+    display: none;
+   }
+   .label1{
+    display: none;
+   }
+   /* .table1{
+    display: none;
+   } */
+}
+
+@media screen and (min-width : 800px) and (max-width : 980px) {
+    *{
+        font-size: small;
+    }
+     dd{
+        font-size:small!important;
+     }
+     .conta{
+        border-radius: 10px !important;
+     }
+    .cont{
+     width: 360px;
+     margin: 20px;
+     padding: 20px;
+    }
+    #cont1{
+        width: 360px;
+    }
+    #cont2{
+      width: 360px;
+    }
+    .conta{
+          width: 360px;
+          padding: 20px;
+          border-radius: 50px;
+    }
+    #cont4{
+        padding: 20px;
+        border-radius: 20px;
+    }
+    #cont3{
+          width: 330px;
+          padding: 10px;
+          border-radius: 20px;
+    }
+    #cont5{
+        width: 330px;
+          padding: 10px;
+          border-radius: 20px;
+    }
+    #cont6{
+          padding: 20px;
+          border-radius: 20px;
+    }
+    label{
+        font-size: medium;
+       }
+       /* h1{
+        display: none;
+       } */
+       .label1{
+        display: none;
+       }
+       dt{
+        font-size: large;
+       }
+       .table1{
+        display: none;
+       }
+
+    
+}
+@media screen  and (min-width : 980px) and (max-width : 1028px)
+{
+    #cont5{
+        width: 450px;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    #cont3{
+        width: 450px;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    .some{
+        font-size: x-large !important;
+    }
+     dt{
+        font-size: large;
+     }
+     dd{
+        font-size: smaller;
+     }
+     .conta{
+        border-radius: 10px !important;
+        
+     }
+    .cont{
+     width: 450px;
+     margin: 20px;
+     padding: 10px;
+    }
+    #cont1{
+        width: 450px;
+    }
+    #cont2{
+      width: 450px;
+    }
+    .conta{
+          width: 450px;
+          padding: 10px;
+          border-radius: 50px;
+    }
+    #cont4{
+          padding: 10px;
+          border-radius: 20px;
+    }
+   
+    #cont6{
+          padding: 10px;
+          border-radius: 20px;
+    }
+    
+      
+
+}
+@media screen  and (min-width : 1028px) and (max-width : 1256px)
+{
+    #cont5{
+        width: 500px;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    #cont3{
+        width: 500px;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    .some{
+        font-size: x-large !important;
+    }
+     dt{
+        font-size: large;
+     }
+     dd{
+        font-size: smaller;
+     }
+     .conta{
+        border-radius: 10px !important;
+        
+     }
+    .cont{
+     width: 450px;
+     margin: 20px;
+     padding: 10px;
+    }
+    #cont1{
+        width: 450px;
+    }
+    #cont2{
+      width: 450px;
+    }
+    .conta{
+          width: 450px;
+          padding: 10px;
+          border-radius: 50px;
+    }
+    #cont4{
+          padding: 10px;
+          border-radius: 20px;
+    }
+   
+    #cont6{
+          padding: 10px;
+          border-radius: 20px;
+    }
+     /* h1{
+        display: none;
+       }
+       .label1{
+        display: none;
+       } */
+}
+@media screen  and (min-width : 1256px) and (max-width : 1280px)
+{
+    #cont5{
+        width: 500px;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    #cont3{
+        width: 500px;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    .some{
+        font-size: x-large !important;
+    }
+    .label1{
+        font-size: medium  ;
+    }
+     dt{
+        font-size: large;
+     }
+     dd{
+        font-size:medium;
+     }
+     .conta{
+        border-radius: 10px !important;
+        
+     }
+    .cont{
+     width: 550px;
+     margin: 20px;
+     padding: 10px;
+    }
+    #cont1{
+        width: 550px;
+    }
+    #cont2{
+      width: 550px;
+    }
+    .conta{
+          width: 300px;
+          padding: 10px;
+          border-radius: 50px;
+    }
+    #cont4{
+          padding: 10px;
+          border-radius: 20px;
+    }
+   
+    #cont6{
+          padding: 10px;
+          border-radius: 20px;
+    }
+     /* h1{
+        display: none;
+       }
+       .label1{
+        display: none;
+       } */
+}
+@media screen and (min-width : 1556px) and (max-width : 1687px) {     
+    #cont1{
+           width: 730px;
+       }
+       #cont2{
+         width: 730px;
+       }
+       .conta{
+             width: 400px;
+             padding: 20px;
+             border-radius: 50px;
+       }
+       #cont3{
+             padding: 20px;
+             border-radius: 20px;
+       }
+       #cont4{
+             padding: 20px;
+             border-radius: 20px;
+       }
+       #cont5{
+             padding: 20px;
+             border-radius: 20px;
+       }
+       #cont6{
+             padding: 20px;
+             border-radius: 20px;
+       }
+       /* .container{
+        width: 400px;
+        margin: 20px;
+        padding: 20px;
+       } */
+}
+@media screen and (min-width : 1687px) and (max-width : 1899px) {     
+    .some{
+        font-size: xx-large !important;
+    }
+    .label1{
+        font-size: large;
+    }
+     dt{
+        font-size: xx-large;
+     }
+     dd{
+        font-size: large  !important;
+     }
+     .cont{
+        width: 750px;
+     }
+    #cont1{
+           width: 750px;
+       }
+       #cont2{
+         width: 700px;
+       }
+       .conta{
+             width: 400px;
+             padding: 20px;
+             border-radius: 50px;
+       }
+       #cont3{
+       
+             padding: 20px;
+             border-radius: 20px;
+       }
+       #cont4{
+             padding: 20px;
+             border-radius: 20px;
+       }
+       #cont5{
+             padding: 20px;
+             border-radius: 20px;
+       }
+       #cont6{
+             padding: 20px;
+             border-radius: 20px;
+       }
+       /* .container{
+        width: 400px;
+        margin: 20px;
+        padding: 20px;
+       } */
+}
+
+
